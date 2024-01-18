@@ -4,7 +4,7 @@ from PyLTSpice import RawRead
 from matplotlib import pyplot as plt
 
 os.chdir(os.path.dirname(os.path.abspath(__file__)))
-LTR = RawRead("AM変調.raw")
+LTR = RawRead("AM変調と包絡線検波回路.raw")
 target_traces = ["V(source)", "V(modulated)", "V(rectified)", "V(output)"]
 
 print(LTR.get_trace_names())
