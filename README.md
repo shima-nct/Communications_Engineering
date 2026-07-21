@@ -13,6 +13,7 @@
 | `Delta_M/` | 音声信号を使ったデルタ変調のデモ |
 | `Noise/` | ブラウン運動、フリッカ雑音、ショット雑音のトイモデル |
 | `OOK/` | OOK 変調・復調のデモと検証スクリプト |
+| `OFDM_Audio/` | ADSL風のDMT/OFDMを音声帯域で送受信するColab対応デモ |
 | `Signal_Integrity/Eye_Pattern/` | アイパターンによるシグナルインテグリティ評価の簡易シミュレーション |
 | `offered_traffic_vs_trunks.ipynb` | アーラン B 式による出線数と許容呼量の関係の可視化 |
 
@@ -31,6 +32,8 @@ pip install librosa ipython
 ```
 
 Google Colab で開く場合は、ノートブック内のセルを上から順に実行してください。環境によって不足ライブラリがある場合は、ノートブック先頭で `pip install` してください。
+
+音声帯域DMT/OFDMデモは、[Google Colabで開く](https://colab.research.google.com/github/shima-nct/Communications_Engineering/blob/main/OFDM_Audio/audio_band_dmt_ofdm.ipynb)ことができます。
 
 ## 使い方
 
